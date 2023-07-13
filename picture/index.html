@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The picture element</h1>
+    <p>Resize the browser window to load different images.</p>
+    <picture>
+      <source media="(min-width:650px)" srcset="img/400px.jpg">
+      <source media="(min-width:465px)" srcset="img/200px.jpg">
+      <img src="img/100px.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+</body>
+</html> 
